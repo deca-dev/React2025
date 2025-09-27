@@ -7,10 +7,10 @@ export function App ()
 
     return(
        <section className="App">
-        <TwitterFollowCard formatUserName={formatUserName} isFollowing={true} userName="midudev" name="Miguel Angel"/>
-        <TwitterFollowCard formatUserName={formatUserName} isFollowing={true} userName="pheralb" name="Pheralbs"/>
-        <TwitterFollowCard formatUserName={formatUserName} isFollowing={true} userName="elonmusk" name="Elon Musk"/>
-        <TwitterFollowCard formatUserName={formatUserName} isFollowing={true} userName="vanderhart" name="Luis Fernández"/>
+        <TwitterFollowCard formatUserName={formatUserName} initialIsFollowing={true} userName="midudev" name="Miguel Angel"/>
+        <TwitterFollowCard formatUserName={formatUserName} initialIsFollowing={false} userName="pheralb" name="Pheralbs"/>
+        <TwitterFollowCard formatUserName={formatUserName} initialIsFollowing={true} userName="elonmusk" name="Elon Musk"/>
+        <TwitterFollowCard formatUserName={formatUserName} initialIsFollowing={false} userName="vanderhart" name="Luis Fernández"/>
        </section>
     )
 }
